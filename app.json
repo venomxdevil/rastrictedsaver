@@ -8,7 +8,7 @@
         "Save restricted content",
         "bot"
     ],
-    "repository": "https://github.com/amangautamdev/amansaver",
+    "repository": "https://github.com/venomxdevil/rastrictedsaver",
     "website": "",
     "success_url": "https://t.me/LegendUnion",
     "env": {
