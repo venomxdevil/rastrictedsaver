@@ -84,6 +84,11 @@ python3 -m main
 - Go to settings of your forked repo
 - Rename your repo by any other name
 - Click on  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+## Deploy your bot on `Koyeb`
+
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/venomxdevil/rastrictedsaver&branch=main)
+
  
 » Method - 2:
 - Star the repo, and fork it in desktop mode
