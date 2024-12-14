@@ -1,0 +1,23 @@
+name: telegram-bot
+services:
+  - name: python-bot
+    type: web
+    docker:
+      image: python:3.10  
+      cmd: ["python3", "-m", "main"]  
+    env:
+      - key: API_ID
+        value: "123456"  
+      - key: API_HASH
+        value: "abcd1234efgh5678" 
+      - key: BOT_TOKEN
+        value: "123456:ABCDEF"  
+      - key: SESSION
+        value: ""  # Pyrogram string session.
+      - key: AUTH
+        value: ""  # User ID of Bot owner
+      - key: FORCESUB
+        value: ""  #Username name of public channel without using '@'
+    ports:
+      - protocol: http
+        port: 8080  # Default HTTP port
